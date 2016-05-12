@@ -140,7 +140,7 @@ td, th { padding: 0; }
 .colors li:nth-of-type(2) .color-swatch { background: #da2e29; }
 .colors li:nth-of-type(2) .color-swatch::before { background: #de433f; }
 .colors li:nth-of-type(2) .color-swatch::after { background: #c72722; }
-.colors li:nth-of-type(2) .color-swatch + b:after { content: "C9, M96, Y99, K1"; }
+.colors li:nth-of-type(2) .color-swatch + b:after { content: "C9, M96, Y100, K0"; }
 .colors li:nth-of-type(3) .color-swatch { background: #29a5da; }
 .colors li:nth-of-type(3) .color-swatch::before { background: #3faede; }
 .colors li:nth-of-type(3) .color-swatch::after { background: #2296c7; }
