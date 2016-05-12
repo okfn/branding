@@ -9,19 +9,24 @@
   }
 }
 
-$okf-primary: #69b93b;
-$okf-secondary: #da2e29;
-$okf-secondary-alt: #29a5da;
+$okf-primary: #69b93b; // Green
+$okf-secondary: #da2e29; // Red
+$okf-secondary-alt: #29a5da; // Blue
 $okf-darkgrey: rgb(45, 45, 45);
 $okf-midgrey: rgb(142, 142, 142);
 $okf-lightgrey: rgb(240, 240, 240);
 
 // colour swatches
-$colour-1: $okf-primary; // Green
-$colour-2: $okf-secondary; // Red
-$colour-3: $okf-secondary-alt; // Blue
-$colour-4: $okf-darkgrey; // Grey
+$colour-1: $okf-primary;
+$colour-1-cmyk: "C63, M2, Y100, K0";
+$colour-2: $okf-secondary;
+$colour-2-cmyk: "C9, M96, Y99, K1";
+$colour-3: $okf-secondary-alt;
+$colour-3-cmyk: "C71, M18, Y2, K0";
+$colour-4: $okf-darkgrey;
+$colour-4-cmyk: "C70, M64, Y63, K64";
 $colour-5: #fff;
+$colour-5-cmyk: "C0, M0, Y0, K0";
 
 @import 'swatch';
 

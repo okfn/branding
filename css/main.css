@@ -132,21 +132,27 @@ td, th { padding: 0; }
 .colors .color-swatch::before { left: 0; }
 .colors .color-swatch::after { right: 0; }
 .colors b { display: block; padding: .6em 0; font-weight: normal; text-transform: uppercase; }
+.colors b:after { display: block; }
 .colors li:nth-of-type(1) .color-swatch { background: #69b93b; }
 .colors li:nth-of-type(1) .color-swatch::before { background: #76c549; }
 .colors li:nth-of-type(1) .color-swatch::after { background: #5ea635; }
+.colors li:nth-of-type(1) .color-swatch + b:after { content: "C63, M2, Y100, K0"; margin-top: 0.2em; }
 .colors li:nth-of-type(2) .color-swatch { background: #da2e29; }
 .colors li:nth-of-type(2) .color-swatch::before { background: #de433f; }
 .colors li:nth-of-type(2) .color-swatch::after { background: #c72722; }
+.colors li:nth-of-type(2) .color-swatch + b:after { content: "C9, M96, Y99, K1"; }
 .colors li:nth-of-type(3) .color-swatch { background: #29a5da; }
 .colors li:nth-of-type(3) .color-swatch::before { background: #3faede; }
 .colors li:nth-of-type(3) .color-swatch::after { background: #2296c7; }
+.colors li:nth-of-type(3) .color-swatch + b:after { content: "C71, M18, Y2, K0"; }
 .colors li:nth-of-type(4) .color-swatch { background: #2d2d2d; }
 .colors li:nth-of-type(4) .color-swatch::before { background: #3a3a3a; }
 .colors li:nth-of-type(4) .color-swatch::after { background: #202020; }
+.colors li:nth-of-type(4) .color-swatch + b:after { content: "C70, M64, Y63, K64"; }
 .colors li:nth-of-type(5) .color-swatch { background: white; }
 .colors li:nth-of-type(5) .color-swatch::before { background: white; }
 .colors li:nth-of-type(5) .color-swatch::after { background: #f2f2f2; }
+.colors li:nth-of-type(5) .color-swatch + b:after { content: "C0, M0, Y0, K0"; }
 @media only screen and (min-width: 768px) { .colors li { width: 19%; float: left; margin: 0 1.25% 1em 0; }
   .colors li:nth-of-type(2n) { margin-right: 1.25%; }
   .colors li:nth-of-type(5n) { margin-right: 0; } }
