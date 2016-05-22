@@ -11,4 +11,4 @@ env:
 install:
 - pip install awscli
 script:
-- aws s3 sync . s3://branding.okfn.org
+- aws s3 sync branding s3://branding.okfn.org
