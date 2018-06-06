@@ -1,0 +1,127 @@
+ul.logos {
+    padding: 0;
+}
+
+ul.logos > li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+ul.logos > li .image {
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    text-align: center;
+    border: solid 5px #f0f0f0;
+}
+
+ul.logos > li .image img {
+    max-width: 100%;
+}
+
+ul.logos > li .text {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 4px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+ul.logos > li .text a {
+    color: inherit;
+}
+
+ul.logos > li .text .png-toggle {
+    position: relative;
+}
+
+ul.logos > li .text .png-toggle label {
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+}
+
+ul.logos > li .text .png-toggle label:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3px 3px 0 3px;
+    border-color: #2d2d2d transparent transparent transparent;
+    position: absolute;
+    right: -9px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+ul.logos > li .text .png-toggle .pngs {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: #fff;
+    border: solid 1px #f0f0f0;
+}
+
+ul.logos > li .text .png-toggle input[type=checkbox] {
+    opacity: 0;
+}
+
+ul.logos > li .text .png-toggle input[type=checkbox]:checked ~ .pngs {
+    display: block;
+}
+
+ul.logos > li .text .png-toggle input[type=checkbox]:checked ~ .pngs:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    top: -5px;
+    left: 25%;
+    margin-left: -6px;
+}
+
+ul.logos > li.reversed .image {
+    background-color: $brand-primary;
+    border-color: #5ca234;
+
+}
+
+ul.logos > li.reversed .text {
+    background-color: #5ca234;
+    color: #fff;
+
+}
+
+ul.logos > li.reversed .text label:after {
+    border-top-color: #fff;
+}
+
+ul.logos > li.reversed .text .pngs a {
+    color: $brand-primary;
+}
+
+ul.logos > li.reversed.grey .image {
+    background-color: #2d2d2d;
+    border-color: #1e1e1e;
+}
+
+ul.logos > li.reversed.grey .text {
+    background-color: #1e1e1e;
+}
+
+ul.logos > li.reversed.grey .text .pngs a {
+    color: #2d2d2d;
+}
+
+ul.logos.landscape li .image {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul.logos.small-use li .image {
+    padding: 35px;
+}

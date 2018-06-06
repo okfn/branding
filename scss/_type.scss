@@ -1,0 +1,19 @@
+h2 {
+  margin-top: 1.75em;
+
+  &:first-of-type {
+    margin-top: 1.25em;
+  }
+}
+
+strong {
+  em {
+    font-style: normal;
+    background-color: $brand-primary;
+    color: #fff;
+
+    a {
+      color: inherit;
+    }
+  }
+}

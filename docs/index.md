@@ -1,104 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="./img/favicon.ico">
-        <title>Branding</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
+# Guidelines
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script> 
-    </head>
+***This is a work in progress. While this guide is still under construction, you should refer to a combination of the "Brand guidelines April 2014" document, and the amendments listed on the ["Changes" page of this site](changes).***
 
-    <body class="homepage">
+This (work in progress) guide introduces our brand, what we stand for and how we want people to see us. It contains easy to use guidelines on our core brand elements – our logos, our typefaces, our colours, and examples of core applications.
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+If you have any queries about these guidelines, please contact [Sam Smith](mailto:sam.smith@okfn.org).
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=".">Branding</a>
-        </div>
+## Logos
 
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href=".">Guidelines</a>
-                    </li>
-                    <li >
-                        <a href="changes/">Changes</a>
-                    </li>
-                </ul>
+There are a number of variations of the logo, suitable for different contexts. Designers should use the most appropriate logo at their discretion, adhering to the guidance below. There are small use versions for use when space is limited.
 
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                    <li class="disabled">
-                        <a rel="next" >
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="changes/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-</div>
+### Portrait logo
 
-        <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#guidelines">Guidelines</a></li>
-            <li><a href="#logos">Logos</a></li>
-            <li><a href="#logo-usage">Logo usage</a></li>
-            <li><a href="#endorsement-logo">Endorsement logo</a></li>
-            <li><a href="#colours">Colours</a></li>
-            <li><a href="#design-elements">Design elements</a></li>
-            <li><a href="#slide-presentations">Slide presentations</a></li>
-            <li><a href="#merchandise">Merchandise</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+Minimum height - 40mm/110px
 
-<h1 id="guidelines">Guidelines</h1>
-<p><strong><em>This is a work in progress. While this guide is still under construction, you should refer to a combination of the "Brand guidelines April 2014" document, and the amendments listed on the <a href="./changes">"Changes" page of this site</a>.</em></strong></p>
-<p>This (work in progress) guide introduces our brand, what we stand for and how we want people to see us. It contains easy to use guidelines on our core brand elements – our logos, our typefaces, our colours, and examples of core applications.</p>
-<p>If you have any queries about these guidelines, please contact <a href="mailto:sam.smith@okfn.org">Sam Smith</a>.</p>
-<h2 id="logos">Logos</h2>
-<p>There are a number of variations of the logo, suitable for different contexts. Designers should use the most appropriate logo at their discretion, adhering to the guidance below. There are small use versions for use when space is limited.</p>
-<h3 id="portrait-logo">Portrait logo</h3>
-<p>Minimum height - 40mm/110px</p>
 <ul class="standard logos row">
     <li class="col-md-4">
   <span class="image">
@@ -177,8 +92,10 @@
     </li>
 </ul>
 
-<h3 id="landscape-logo">Landscape logo</h3>
-<p>Minimum width - 70mm/230px</p>
+### Landscape logo
+
+Minimum width - 70mm/230px
+
 <ul class="landscape logos row">
     <li class="col-md-4">
   <span class="image">
@@ -266,8 +183,10 @@
     </li>
 </ul>
 
-<h3 id="small-use-logo">Small use logo</h3>
-<p>Minimum height - 20mm/60px</p>
+### Small use logo
+
+Minimum height - 20mm/60px
+
 <ul class="small-use logos row">
     <li class="col-md-4">
   <span class="image">
@@ -346,8 +265,10 @@
     </li>
 </ul>
 
-<h3 id="icons">Icons</h3>
-<p>Use for social media display pictures and website favicons.</p>
+### Icons
+
+Use for social media display pictures and website favicons.
+
 <ul class="icon logos row">
     <li class="col-md-4">
   <span class="image">
@@ -378,14 +299,23 @@
     </li>
 </ul>
 
-<h2 id="logo-usage">Logo usage</h2>
-<h3 id="logo-exclusion-area">Logo exclusion area</h3>
-<p>This diagram illustrates the minimum space that you should leave between the logo and other graphic elements, using the word ‘OPEN’ from the logo to measure.</p>
-<p><img src="//a.okfn.org/img/oki/logo-exclusion-area.png" alt=""></p>
-<h2 id="endorsement-logo">Endorsement logo</h2>
-<p><img src="../endorsement-logo-2.jpg" alt="" width="161"></p>
-<p>See <a href="https://a.okfn.org/html/oki/panel/">a.okfn.org/html/oki/panel</a></p>
-<h2 id="colours">Colours</h2>
+## Logo usage
+
+### Logo exclusion area
+
+This diagram illustrates the minimum space that you should leave between the logo and other graphic elements, using the word ‘OPEN’ from the logo to measure.
+
+<img src="//a.okfn.org/img/oki/logo-exclusion-area.png" alt="">
+
+
+## Endorsement logo
+
+<img src="../endorsement-logo-2.jpg" alt="" width="161">
+
+See [a.okfn.org/html/oki/panel](https://a.okfn.org/html/oki/panel/)
+
+## Colours
+
 <ul class="swatches">
   <li>
     <div class="color-swatch"></div>
@@ -414,94 +344,21 @@
   </li>
 </ul>
 
-<h2 id="design-elements">Design elements</h2>
-<p>In addition to our colour scheme and typeface, the "spokes" of our logo can be utilised to continue and reinforce our visual identity. This device can be used to overlay images, or highlight text.</p>
-<p><img src="../elements-2.png" alt=""></p>
-<p><img src="../elements-3.jpg" alt=""></p>
-<h2 id="slide-presentations">Slide presentations</h2>
-<p><img src="../slide-title-page-2.png" alt=""></p>
-<p>A Google Slides template can be found <a href="https://drive.google.com/open?id=1t1MdasbylNSYrBHxUH9q_OqBfs6JadxYBOGBMbMDId8">here</a>.</p>
-<h2 id="merchandise">Merchandise</h2>
-<p><img src="hoodie.jpg" alt="">
-<img src="bag.jpg" alt=""></p></div>
-        </div>
+## Design elements
 
-        <footer class="col-md-12">
-        </footer>
-        <script>var base_url = '.';</script>
-        <script src="./js/base.js"></script>
-        <script src="./search/require.js"></script>
-        <script src="./search/search.js"></script>
+In addition to our colour scheme and typeface, the "spokes" of our logo can be utilised to continue and reinforce our visual identity. This device can be used to overlay images, or highlight text.
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-            </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&larr;</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&rarr;</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
+<img src="../elements-2.png" alt="">
 
+<img src="../elements-3.jpg" alt="">
 
-    </body>
-</html>
+## Slide presentations
 
-<!--
-MkDocs version : 0.17.3
-Build Date UTC : 2018-06-06 17:37:35
--->
+<img src="../slide-title-page-2.png" alt="">
+
+A Google Slides template can be found [here](https://drive.google.com/open?id=1t1MdasbylNSYrBHxUH9q_OqBfs6JadxYBOGBMbMDId8).
+
+## Merchandise
+
+<img src="hoodie.jpg" alt="">
+<img src="bag.jpg" alt="">

@@ -1,0 +1,33 @@
+.diff {
+  text-align: center;
+  margin-bottom: $grid-gutter-width;
+  padding-top: $padding-large-vertical;
+  padding-bottom: $padding-large-vertical;
+
+  :nth-child(2) {
+    padding: $grid-gutter-width/2 $grid-gutter-width;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > * {
+      flex-basis: 50px;
+      flex-grow: 1;
+
+      &:nth-child(1) {
+        text-align: right;
+      }
+
+      &:nth-child(2) {
+        flex-grow: 0;
+      }
+
+      &:nth-child(3) {
+        text-align: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+site_name: Branding
+theme:
+    name: mkdocs
+    custom_dir: oki
+site_dir: branding

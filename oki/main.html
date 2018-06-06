@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{%- block styles %}
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  {{ super() }}
+{%- endblock %}
+
+{%- block footer %}
+  {%- if config.copyright %}
+    <p>{{ config.copyright }}</p>
+  {%- endif %}
+{%- endblock %}
